@@ -32,7 +32,7 @@ def index_view():
     return {
         'name': 'flask-watchlist',
         'description': 'a simple app for tracking the movies you want to watch',
-        'version': 1.0,
+        'version': 1.1,
     }
 
 
