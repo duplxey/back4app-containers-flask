@@ -17,4 +17,6 @@ COPY . .
 # initialize the database (create DB, tables, populate)
 RUN python init_db.py
 
+EXPOSE 5000/tcp
+
 CMD ["gunicorn", "-w", "2", "-b", "0.0.0.0:5000", "app:app"]
