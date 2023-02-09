@@ -2,6 +2,8 @@
 
 A simple Flask REST API that allows you to track your movie watchlist.
 
+> Want to learn how to build this and deploy it to [Back4app Containers](https://www.back4app.com/container-as-a-service-caas)? Check out the [article](https://blog.back4app.com/what-are-containers-in-cloud-computing/).
+
 ## Development
 
 1. Fork/Clone
